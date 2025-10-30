@@ -18,11 +18,12 @@ class _HomeScreenState extends State<HomeScreen> {
         children: [
           Container(
           if( click ==  1)
-          Text("안녕하세요")
+          Text("안녕하세요"),
            else if( click == 2) 
             Text("반가워요"),
           ),
             FloatingActionButton(
+              
 
             )
         ],
