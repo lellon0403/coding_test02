@@ -24,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
             floatingActionButton : FloatingActionButton(
               onPressed: () {},
-              child
+              child: Text('클릭'),
             )
 
 
