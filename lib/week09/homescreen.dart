@@ -16,20 +16,21 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          textBox : textBox(
+          text : Text(
           if( click ==  1)
           Text("안녕하세요"),
            else if( click == 2) 
             Text("반가워요"),
           ),
             floatingActionButton : FloatingActionButton(
-              onPressed: () {},
+              onPressed: () {
+                click =2;
+              },
               child: Text('클릭'),
             )
-
-
-            )
         ],
+            )
+    
 
   
       )
