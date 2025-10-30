@@ -14,9 +14,11 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          if
+          if( click = 1){
           Text("안녕하세요")
+          }
         ],
+  
       )
     );
   }
