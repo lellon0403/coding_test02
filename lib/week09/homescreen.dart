@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          container : Container(
+          textBox : textBox(
           if( click ==  1)
           Text("안녕하세요"),
            else if( click == 2) 
