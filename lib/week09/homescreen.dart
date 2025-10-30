@@ -14,9 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          Text(
-            
-          )
+          Text("안녕하세요")
         ],
       )
     );
