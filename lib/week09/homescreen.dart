@@ -22,7 +22,10 @@ class _HomeScreenState extends State<HomeScreen> {
            else if( click == 2) 
             Text("반가워요"),
           ),
-            floatingActionButton : FloatingActionButton()
+            floatingActionButton : FloatingActionButton(
+              onPressed: () {},
+              child
+            )
 
 
             )
